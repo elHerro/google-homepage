@@ -1,0 +1,40 @@
+body {
+	background-color: white;
+	color: black;
+	font-family: arial, sans-serif;
+}
+
+.flex {
+	display: flex;
+	align-content: space-between;
+}
+
+#content{
+	flex-direction: column;
+	align-items: center;
+}
+
+.logo{
+	margin-top: 109px;
+	margin-bottom: 35px;
+	width: 272px;
+	height: 92px;
+}
+
+#searchForm {
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+}
+
+.buttons{
+	margin-top: 18px;
+}
+
+.search{
+	width: 40%;
+}
+
+.searchBox{
+	width: 100%;
+}
