@@ -9,6 +9,42 @@ body {
 	align-content: space-between;
 }
 
+.navbar{
+	justify-content: flex-end;
+	align-items: center;
+	padding-right: 30px;
+}
+
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar ul li {
+	display: inline-block;
+	padding: 8px;
+	text-align: center;
+}
+
+.navbar ul li a {
+	color: rgba(0,0,0,0.87);
+	text-decoration: none;
+	font-size: 13px;
+}
+
+.navbar ul li a:hover {
+	text-decoration: underline;
+	opacity: .85;
+}
+
+.profilePic{
+	height: 32px;
+	width: 32px;
+	border-radius: 50%;
+	margin-left: 15px;
+}
+
 .contentWrapper{
 	flex-direction: column;
 	align-items: center;
